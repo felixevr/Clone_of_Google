@@ -103,7 +103,6 @@ a:hover {
     margin: 0 1.5rem;
     border: none;
     border-radius: 0.4rem;
-
 }
 .main__search-buttom:hover {
     border: 0.01rem;
@@ -113,6 +112,7 @@ a:hover {
 }
 .main__change-lenguage-option {
     margin: 3rem auto;
+    display: flex;
 }
 .main__link-translate {
     color: #1967d2;
@@ -134,18 +134,17 @@ a:hover {
 }
 .footer__list {
     padding: 2rem;
-
 }
 .footer__link {
     color: #70757a;
     margin: 0 1rem;
 }
 
+/* RESPONSIVE ARGUMENTS */
 @media only screen and (max-width: 650px) {
     .footer__container {
         justify-content: center;
     }
-
 }
 @media only screen and (max-width: 389px) {
     .footer__link_hidden {
@@ -160,8 +159,8 @@ a:hover {
     .main__buttoms-container {
         display: none;
     }
-    .main__lenguage-wraper {
-        display: flex;
+    .main__change-lenguage-option {
+        flex-wrap: wrap;
         justify-content: center;
     }
 }
