@@ -33,8 +33,7 @@ a:hover {
 }
 .header__menu {
     margin-right: 2rem;
-    display: flex;
-    align-items: center;
+    margin-top: 1rem;
 }
 .header__list {
     display: flex;
@@ -46,9 +45,6 @@ a:hover {
 }
 .header__image-cuadritos {
     max-width: 2rem;
-}
-.header__mask-image {
-
 }
 .header__image-perfil {
     max-width: 5rem;
@@ -62,8 +58,6 @@ a:hover {
 }
 .main__logo-container {
     margin: 9rem auto 0;
-    display: flex;
-    justify-content: center;
 }
 .main__search-box {
     margin: 4rem auto;
@@ -86,7 +80,6 @@ a:hover {
 .main__input-search-box {
     width: 80%;
     height: 4rem;
-    margin: 0rem 0 0rem;
     border-style: solid;
     border-color: white;
 }
@@ -152,6 +145,8 @@ a:hover {
     }
     .main__logo-container {
         margin: 5rem auto 0;
+        display: flex;              /* Alineando el logo debido a que al reducirlo a 60% el mismo se alinea a la izquierda*/
+        justify-content: center;
     }
     .main__logo {
         width: 60%;
